@@ -1,0 +1,54 @@
+2020-08-13 18:16:27 0 [Note] InnoDB: Using Linux native AIO
+2020-08-13 18:16:27 0 [Note] InnoDB: Uses event mutexes
+2020-08-13 18:16:27 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-13 18:16:27 0 [Note] InnoDB: Number of pools: 1
+2020-08-13 18:16:27 0 [Note] InnoDB: Using SSE4.2 crc32 instructions
+2020-08-13 18:16:27 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2020-08-13 18:16:27 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2020-08-13 18:16:27 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-13 18:16:27 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-13 18:16:27 0 [Note] InnoDB: 128 rollback segments are active.
+2020-08-13 18:16:27 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-13 18:16:27 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-13 18:16:27 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-13 18:16:27 0 [Note] InnoDB: 10.5.4 started; log sequence number 45041; transaction id 21
+2020-08-13 18:16:27 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2020-08-13 18:16:27 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-13 18:16:27 0 [Note] InnoDB: Buffer pool(s) load completed at 200813 18:16:27
+2020-08-13 18:16:27 0 [Note] Server socket created on IP: '::'.
+2020-08-13 18:16:27 0 [Note] Reading of all Master_info entries succeeded
+2020-08-13 18:16:27 0 [Note] Added new Master_info '' to hash table
+2020-08-13 18:16:27 0 [Note] /usr/sbin/mariadbd: ready for connections.
+Version: '10.5.4-MariaDB-1:10.5.4+maria~bionic'  socket: '/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution
+2020-08-13 18:21:20 0 [Note] /usr/sbin/mariadbd (initiated by: root[root] @ localhost []): Normal shutdown
+2020-08-13 18:21:20 0 [Note] Event Scheduler: Purging the queue. 0 events
+2020-08-13 18:21:20 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-13 18:21:20 0 [Note] InnoDB: Starting shutdown...
+2020-08-13 18:21:20 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2020-08-13 18:21:20 0 [Note] InnoDB: Buffer pool(s) dump completed at 200813 18:21:20
+2020-08-13 18:21:21 0 [Note] InnoDB: Shutdown completed; log sequence number 45081; transaction id 26
+2020-08-13 18:21:21 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-13 18:21:21 0 [Note] /usr/sbin/mariadbd: Shutdown complete
+
+2020-08-13 18:21:52 0 [Note] InnoDB: Using Linux native AIO
+2020-08-13 18:21:52 0 [Note] InnoDB: Uses event mutexes
+2020-08-13 18:21:52 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-13 18:21:52 0 [Note] InnoDB: Number of pools: 1
+2020-08-13 18:21:52 0 [Note] InnoDB: Using SSE4.2 crc32 instructions
+2020-08-13 18:21:52 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2020-08-13 18:21:52 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2020-08-13 18:21:52 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-13 18:21:52 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-13 18:21:53 0 [Note] InnoDB: 128 rollback segments are active.
+2020-08-13 18:21:53 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-13 18:21:53 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-13 18:21:53 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-13 18:21:53 0 [Note] InnoDB: 10.5.4 started; log sequence number 45081; transaction id 21
+2020-08-13 18:21:53 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2020-08-13 18:21:53 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-13 18:21:53 0 [Note] Server socket created on IP: '::'.
+2020-08-13 18:21:53 0 [Note] InnoDB: Buffer pool(s) load completed at 200813 18:21:53
+2020-08-13 18:21:53 0 [Note] Reading of all Master_info entries succeeded
+2020-08-13 18:21:53 0 [Note] Added new Master_info '' to hash table
+2020-08-13 18:21:53 0 [Note] /usr/sbin/mariadbd: ready for connections.
+Version: '10.5.4-MariaDB-1:10.5.4+maria~bionic'  socket: '/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution
