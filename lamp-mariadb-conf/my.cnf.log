@@ -52,8 +52,8 @@ max_connections		= 100
 connect_timeout		= 5
 wait_timeout		= 600
 max_allowed_packet	= 16M
-thread_cache_size       = 8
-sort_buffer_size	= 32M
+thread_cache_size       = 128
+sort_buffer_size	= 4M
 bulk_insert_buffer_size	= 16M
 tmp_table_size		= 32M
 max_heap_table_size	= 32M
@@ -69,17 +69,13 @@ table_open_cache	= 400
 myisam_sort_buffer_size	= 512M
 concurrent_insert	= 2
 read_buffer_size	= 2M
-read_rnd_buffer_size	= 4M
+read_rnd_buffer_size	= 1M
 #
 # * Query Cache Configuration
 #
 # Cache only tiny result sets, so we can fit more in the query cache.
-#query_cache_limit		= 1M
-#query_cache_size		= 100M
-# Ñmysqltuner
-query_cache_size=0
-query_cache_type=0
-query_cache_limit=1M
+query_cache_limit		= 128K
+query_cache_size		= 64M
 # for more write intensive setups, set to DEMAND or OFF
 #query_cache_type		= DEMAND
 #
@@ -135,7 +131,7 @@ max_binlog_size         = 100M
 # InnoDB is enabled by default with a 10MB datafile in /var/lib/mysql/.
 # Read the manual for more InnoDB related options. There are many!
 default_storage_engine	= InnoDB
-innodb_buffer_pool_size	= 800M
+innodb_buffer_pool_size	= 256M
 innodb_log_buffer_size	= 8M
 innodb_file_per_table	= 1
 innodb_open_files	= 400
