@@ -21,4 +21,4 @@ docker run -d -it -p $PORTHTTP:80 -p $PORTSSH:22 -p $PORTDB:3306 --name $NAME -v
 
 echo "docker runing $NAME PORTHTTP: $PORTHTTP"
 echo "docker exec -it $NAME bash"
-sleep 10000
+sleep 1
